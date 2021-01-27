@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="cintasayang">
+    <meta name="description" content="A sandbox
+    website used to explore features of the
+    HTML and CSS languages">
+    <!-- Comment syntax -->
+    <meta property="og:image" content="./images/opengraph.jpg">
+    <meta property="og:description" content="This is a website used to explore web development.">
+    <meta property="og:title" content="Just another web page">
+    <meta name="twitter:title" content="Just another web page">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Another web page</title>
+    <style>
+      nav a {color: black; text-decoration: none;}
+      nav a:visited {color: black;}
+      nav a:hover {color:#026b9c}
+      nav li {margin: 0.3rem;}:
+      body { width:100%; margin: 0px;padding: 0px; }
+      ul { list-style-type:none; }
+      .separator {border: .4rem solid #026b9c; }
+      header { border-bottom: .4rem solid #026b9c; color : #d1f4ff; background-color: #038ece; font-size : 3rem; display:flex; flex-direction: row; align-items: center; justify-content: space-around; padding:1rem;}
+      .nav { margin-left:10%; margin-right:10%; font-size: 2em; padding-top : 0.5rem; padding-bottom:0.5rem; margin-bottom:0px; display:flex; flex-direction: row; align-items: center  ;
+  justify-content: space-around; margin-top:0px;}
+      footer {background-color: #2a303b; color:white;}
+      footer .links {display:flex; justify-content: center;}
+      footer ul {padding-left: 0px; margin: 2rem; flex: 0 0 15%;}
+      footer li { margin: 0.5rem;}
+      footer a {text-decoration: none;}
+      footer a:visited {color: white;}
+      footer a:hover {text-decoration: underline;}
+      .mentions { padding:1rem; margin: auto; text-align:center; }
+      footer .title {font-weight: bold; font-size:1.3rem; margin-bottom: 0.9rem;}
+      .breves ul {flex-wrap: wrap; display:flex; justify-content: center; flex-direction: row; background-color: #026b9c; color:white; padding: 1rem 15% 1rem 15%; margin:0 0 0 0;}
+      .breves li {min-width: 150px; margin: 0.5rem; flex: 1 1 0; width: 0; font-size:0.9rem; font-weight:bold;}
+      .articles {width:70%; margin: 0 auto;}
+      .articles {padding:1rem 15% 1rem 15%;}
+      .articles ul {padding-left:0px; flex-wrap: wrap; display:flex; justify-content: center; flex-direction: row; margin-top:0px; margin-left: 10%;}
+      .articles li {flex: 1 1 0; margin-right:15%; border-top: .1rem solid #026b9c;}
+      .articles h2 {font-size:1rem;}
+      .articles h1 {margin-left:10%}
+      .articles p {font-size:1.6rem;}
+    </style>
+  </head>
+  <body>
+    <header><span class="banner">Enquêtes Exclusives</span></header>
+    <nav>
+      <ul class="nav">
+        <li><a href="#">Accueil</a>
+        </li><li class="separator">
+        </li><li><a href="#">L'équipe</a></li>
+        <li class="separator"></li>
+        <li><a href="#">Nous contacter</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="breves">
+        <ul>
+          <li><div>14:11</div>
+          <p>Redoine Faid s'est de nouveau échappé de sa prison de haute sécurité, cette fois à l'aide d'une fusée Falcon 9 de provenance inconnue, les gardes pensant qu'il s'agissait d'une exposition sur le thème de l'espace</p>
+          </li>
+          <li><div>21:49</div>
+            <p>Le braqueur de l'Orient Express, surnommé "La Courgette",
+              s'est renommé le concombre suite à une intoxication alimentaire
+              due à une ingestion de courgettes contaminées</p>
+          </li>
+          <li><div>26:82</div>
+            <p>Le logeur de Daesh continue de nier sa connaissance des projets d'attentats de ses locataires, il explique avoir pensé que "<em>l'histoire des attentats, c'était pour un film tu vois, moi je pensais qu'ils bossaient avec Luc Besson tu comprends ?</em>"</p>
+          </li>
+          <li><div>11:02</div>
+            <p>66 000 000 de Français ne sont pas morts aujourd'hui</p>
+          </li>
+          <li><div>13:37</div>
+            <p>Des milliers d'obèses se sont rendus nus sur les Champs de Mars afin de sensibiliser le public aux réalités de leur maladie, causant un tremblement de terre de magnitude 6.7 dans la capitale parisienne</p>
+          </li>
+        </ul>
+      </section>
+      <section class="articles">
+        <h1>Nouvelles en continu</h1>
+        <ul>
+          <li><h2>Decryptage</h2><p>32 agences de voyage comparées rien que pour vous</p><img src="images/image.jpg" /></li>
+          <li><h2>Aviation</h2><p>Le Boeing 737 MAX à nouveau autorisé à voler en Europe</p><img src="images/image.jpg" /></li>
+        </ul>
+        <ul>
+          <li><h2>Antarctique</h2><p>L'ours polaire serait un descendant de Carlos</p></li>
+          <li><h2>Big Data</h2><p>Cambridge Analytica : 32 000 000 giga bits qui peinent à faire jouir</p></li>
+        </ul>
+        <ul>
+          <li><h2>Cuisine</h2><p>Suite à la découverte que la frite aurait été inventée en Belgique par un Français alors en voyage, large déploiement de troupes à la frontière franco-belge</p></li>
+          <li><h2>Chimie</h2><p>L'atome de carbone, ce grand adepte de la polygamie</p></li>
+        </ul>
+
+      </section>
+    </main>
+    <footer>
+      <div class="links">
+      <ul>
+        <li class=title>Title</li>
+        <li><a href="#">Lapsum</a></li>
+        <li><a href="#">Lorei</a></li>
+        <li><a href="#">Lorelei</a></li>
+      </ul>
+      <ul>
+        <li class=title>Title</li>
+        <li><a href="#">Lapsum</a></li>
+        <li><a href="#">Lorei</a></li>
+        <li><a href="#">Lorelei</a></li>
+      </ul>
+      <ul>
+        <li class=title>Title</li>
+        <li><a href="#">Lapsum</a></li>
+        <li><a href="#">Lorei</a></li>
+        <li><a href="#">Lorelei</a></li>
+      </ul>
+      </div>
+      <div><span><hr /></span></div>
+      <div class="mentions">
+        <span>Copyright 2021 all mentions reserved</span>
+      </div>
+    </footer>
+  </body>
+</html>
